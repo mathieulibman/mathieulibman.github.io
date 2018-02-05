@@ -23,28 +23,6 @@ body {
 	margin-top: 70px;
 }
 
-#header-text-container {
-    display: block;
-    float: left;
-    border: 0px red solid;
-    width: 50%;
-    margin-bottom: 100px;
-}
-
-#header-text-a {
-	color: #ffffff;
-	border-bottom: none;
-	text-decoration: none;
-}
-
-#header-text-h1 {
-	margin: 0;
-	padding: 0;
-	font-weight: bold;
-	line-height: 1em;
-	font-size: 46px;
-}
-
 #content {
     width: 100%;
     overflow-x: hidden;
