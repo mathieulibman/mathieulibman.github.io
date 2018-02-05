@@ -12,6 +12,7 @@ html {
 
 body {
 	background-color: black;
+	margin-top: 70px;
 }
 
 #main {
@@ -20,7 +21,6 @@ body {
 	padding-left: 50px;
 	padding-right: 50px;
 	margin: auto;
-	margin-top: 70px;
 }
 
 #content {
