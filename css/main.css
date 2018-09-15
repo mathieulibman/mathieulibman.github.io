@@ -163,3 +163,18 @@ body {
 .mfp-with-zoom.mfp-removing.mfp-bg {
 	opacity: 0;
 }
+
+#tabs {
+	list-style: none;
+	text-align: center;
+}
+
+#tabs li {
+	display: inline;
+	margin: 0 50px;
+}
+
+#tabs li a {
+	color: white;
+	text-decoration: none;
+}
