@@ -166,7 +166,9 @@ body {
 
 #tabs {
 	list-style: none;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #tabs li {
