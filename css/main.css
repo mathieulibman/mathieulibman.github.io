@@ -167,13 +167,13 @@ body {
 #tabs {
 	list-style: none;
 	display: flex;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-evenly;
 	align-items: center;
 }
 
 #tabs li {
 	display: inline;
-	margin: 0 50px;
 }
 
 #tabs li a {
