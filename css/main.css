@@ -175,6 +175,11 @@ body {
 }
 
 #tabs li a {
-	color: white;
+	color: #242424;
 	text-decoration: none;
+}
+
+.active-tab {
+	color: white;
+	cursor: default;
 }
