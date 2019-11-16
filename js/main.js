@@ -21,10 +21,8 @@ $(document).ready(function() {
 	function scrollFunction() {
 		if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
 			document.getElementById('tabs-container').style.padding = '0'
-			document.getElementById('logo').style.fontSize = '25px'
 		} else {
 			document.getElementById('tabs-container').style.padding = '20px 0'
-			document.getElementById('logo').style.fontSize = '35px'
 		}
 	}
 })
