@@ -33,11 +33,13 @@ body {
 	margin: auto;
 }
 
+/*
 #content {
 	width: 100%;
 	overflow-x: hidden;
 	clear: both;
 }
+*/
 
 .post {
 	margin-bottom: 35px;
@@ -227,4 +229,23 @@ body {
 #tab-about a {
 	font-family: Futura, arial;
 	color: #27bb77;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.film-row {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.film {
+	flex: 1;
+	margin: 0 25px;
 }
