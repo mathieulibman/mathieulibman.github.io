@@ -215,16 +215,16 @@ body {
 }
 
 #tab-portfolio a {
-	font-family: 'Rockwell', arial;
+	font-family: Rockwell, arial;
 	color: #e3951a;
 }
 
 #tab-films a {
-	font-family: 'Gastromond', arial;
+	font-family: Gastromond, arial;
 	color: #ff5148;
 }
 
 #tab-about a {
-	font-family: 'Futura', arial;
+	font-family: Futura, arial;
 	color: #27bb77;
 }
