@@ -3,6 +3,16 @@
 	src: url('../font/Futura.ttc');
 }
 
+@font-face {
+	font-family: 'Rockwell';
+	src: url('../font/Rockwell.ttc');
+}
+
+@font-face {
+	font-family: 'Gastromond';
+	src: url('../font/Gastromond.ttc');
+}
+
 html {
 	color: white;
 	font-size: 1em;
@@ -12,7 +22,7 @@ html {
 
 body {
 	background-color: black;
-	margin-top: 70px;
+	margin: 0;
 }
 
 #main {
@@ -164,24 +174,57 @@ body {
 	opacity: 0;
 }
 
-#tabs {
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
-}
-
 #tabs li {
 	display: inline;
 }
 
 #tabs li a {
-	color: #242424;
 	text-decoration: none;
 }
 
-.active-tab {
-	color: white;
-	cursor: default;
+#tabs-container {
+	background-color: #ffe1ba;
+	padding: 20px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	transition: 0.4s;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#tabs {
+	list-style: none;
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#logo {
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#logo img {
+	text-align: center;
+	margin-bottom: -1px;
+}
+
+#tab-portfolio a {
+	font-family: 'Rockwell', arial;
+	color: #e3951a;
+}
+
+#tab-films a {
+	font-family: 'Gastromond', arial;
+	color: #ff5148;
+}
+
+#tab-about a {
+	font-family: 'Futura', arial;
+	color: #27bb77;
 }
