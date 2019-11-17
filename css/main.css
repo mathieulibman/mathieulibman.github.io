@@ -217,31 +217,31 @@ body {
 #tab-portfolio a {
 	font-family: Rockwell, arial;
 	color: #e3951a;
-	transition: 2s;
+	transition: 1s;
 }
 
 #tab-portfolio a:hover {
-	color: #ffaa05;
+	color: #841ae3;
 }
 
 #tab-films a {
 	font-family: Gastromond, arial;
 	color: #ff5148;
-	transition: 2s;
+	transition: 1s;
 }
 
 #tab-films a:hover {
-	color: #ff826e;
+	color: #2cabfa;
 }
 
 #tab-about a {
 	font-family: Futura, arial;
 	color: #27bb77;
-	transition: 2s;
+	transition: 1s;
 }
 
 #tab-about a:hover {
-	color: #3edc79;
+	color: #ec7105;
 }
 
 .center {
