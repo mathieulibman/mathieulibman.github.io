@@ -198,12 +198,15 @@ body {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	padding: 0;
 }
 
 #logo {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	padding: 0 50px;
+    margin-top: 10px;
 }
 
 #logo img {
@@ -251,6 +254,7 @@ body {
 	right: 0;
 	font-size: 30px;
 	margin: 10px 20px;
+	z-index: 9999;
 }
 
 .social a {
@@ -281,4 +285,21 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-top: 20px;
+}
+
+@media only screen and (max-width: 516px) {
+	#tabs-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#tabs {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+		justify-content: space-around;
+		margin-bottom: 0;
 }
