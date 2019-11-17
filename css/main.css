@@ -206,7 +206,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	padding: 0 50px;
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 #logo img {
@@ -287,19 +287,30 @@ body {
 	margin-top: 20px;
 }
 
-@media only screen and (max-width: 516px) {
+@media only screen and (max-width: 1000px) {
+	.film-row {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.film {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
 	#tabs-container {
-		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
 
 	#tabs {
-		display: flex;
 		flex-direction: row;
 		align-items: center;
 		width: 100%;
 		justify-content: space-around;
 		margin-bottom: 0;
+	}
 }
