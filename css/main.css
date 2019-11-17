@@ -299,6 +299,10 @@ body {
 	}
 }
 
+.navbar-spacer {
+	padding-top: 97px;
+}
+
 @media only screen and (max-width: 700px) {
 	#tabs-container {
 		flex-direction: column;
@@ -312,5 +316,9 @@ body {
 		width: 100%;
 		justify-content: space-around;
 		margin-bottom: 0;
+	}
+
+	.navbar-spacer {
+		padding-top: 127px;
 	}
 }
