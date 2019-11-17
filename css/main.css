@@ -217,7 +217,7 @@ body {
 #tab-portfolio a {
 	font-family: Rockwell, arial;
 	color: #e3951a;
-	transition: 1s;
+	transition: 0.25s;
 }
 
 #tab-portfolio a:hover {
@@ -227,7 +227,7 @@ body {
 #tab-films a {
 	font-family: Gastromond, arial;
 	color: #ff5148;
-	transition: 1s;
+	transition: 0.25s;
 }
 
 #tab-films a:hover {
@@ -237,7 +237,7 @@ body {
 #tab-about a {
 	font-family: Futura, arial;
 	color: #27bb77;
-	transition: 1s;
+	transition: 0.25s;
 }
 
 #tab-about a:hover {
