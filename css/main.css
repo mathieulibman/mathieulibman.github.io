@@ -8,13 +8,8 @@
 	src: url('../font/Rockwell.ttc');
 }
 
-@font-face {
-	font-family: 'Gastromond';
-	src: url('../font/Gastromond.ttc');
-}
-
 html {
-	color: white;
+	color: #ffe1ba;
 	font-size: 1em;
 	line-height: 1.4;
 	font-family: 'Futura', arial;
@@ -248,4 +243,42 @@ body {
 .film {
 	flex: 1;
 	margin: 0 25px;
+}
+
+.social {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 30px;
+	margin: 10px 20px;
+}
+
+.social a {
+	color: #fee1ba8a;
+	transition: 0.2s;
+}
+
+.social a:hover {
+	color: #fee1baff;
+}
+
+.about-social {
+	font-size: 75px;
+}
+
+.about-social a {
+	color: #fee1ba8a;
+	transition: 0.2s;
+}
+
+.about-social a:hover {
+	color: #fee1baff;
+}
+
+#about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
 }
